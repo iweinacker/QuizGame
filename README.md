@@ -16,7 +16,7 @@ Different questions of all kinds will appear, and you will have the option to ch
 
 ## features
 
-- At the beginning and as a cover, the game asks you if you want to start the trivia, having the option "yes" or "no". 
+At the beginning and as a cover, the game asks you if you want to start the trivia, having the option "yes" or "no". 
 
 ![image](https://github.com/iweinacker/QuizGame/assets/130374663/2fd6ddc1-736b-4f0f-9eec-f616a681eb97)
 
