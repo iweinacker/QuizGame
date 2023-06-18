@@ -59,7 +59,7 @@ It has two bugs regarding the line length, but these are related to the question
 
 ## Deployment
 
-This project was deployed usfng Code Institute's mock terminal for Heroku
+This project was deployed using Code Institute's mock terminal for Heroku
 
 - Steps for deployment:
   - Fork or clone this repository
