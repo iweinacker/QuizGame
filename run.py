@@ -7,7 +7,7 @@ question_quiz = [
     "4. What kind of animal is Simba? \n A) Dog\n B) Tiger\n C) Lion\n \n",
     "5. What is Shrek?\n A) An ogre\n B) A prince\n C) A donkey\n \n"
 ]
-
+# defining the right answer in the question array
 questions = [
     qt(question_quiz[0], "b"),
     qt(question_quiz[1], "c"),
@@ -15,6 +15,17 @@ questions = [
     qt(question_quiz[3], "c"),
     qt(question_quiz[4], "a"),
 ]
+
+# Start game function
+
+startGame = input("Do you want to play this awesome quizgame? (yes or no):")
+
+if startGame != "yes":
+    quit()
+
+print("let's play\n")
+
+# defining the function for the quiz game and showing the score
 
 
 def play_game(questions):
@@ -28,6 +39,8 @@ def play_game(questions):
 
 
 play_game(questions)
+
+# defining play again function
 
 
 def play_again():
