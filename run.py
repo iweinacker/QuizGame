@@ -23,8 +23,8 @@ def play_game(questions):
         answer = input(question.prompt)
         if answer == question.answer:
             score += 1
-        print("You got " + str(score) +
-              "/" + str(len(questions)) + " correct")
+        correctAnswer = int((score/len(questions))*100)
+    print("Your score is: "+str(correctAnswer)+"%")
 
 
 play_game(questions)
