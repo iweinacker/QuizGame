@@ -2,7 +2,7 @@ from Question import Question as qt
 
 question_quiz = [
     "1. What kind of fish is Nemo?\n A) Shark\n B) Clownfish\n C) Whale\n \n",
-    "2. Who is Ariels best friend in the Little Mermaid??\n A) Spongebob\n B) Poseidon\n C)  Flounder\n \n",
+    "2. Who is Ariels best friend in the Little Mermaid??\n A) Spongebob\n B) Poseidon\n C) Flounder\n \n",
     "3. Which school did Harry Potter attend? \n A) Hoggwart\n B) Harvart\n C) Homeschool\n \n",
     "4. What kind of animal is Simba? \n A) Dog\n B) Tiger\n C) Lion\n \n",
     "5. What is Shrek?\n A) An ogre\n B) A prince\n C) A donkey\n \n"
@@ -17,17 +17,29 @@ questions = [
 ]
 
 
-def new_game(questions):
-    guess = []
-    score = []
-    question_num = 1
-
+def play_game(questions):
+    score = 0
     for question in questions:
-        answer = input(question_quiz)
+        answer = input(question.prompt)
         if answer == question.answer:
             score += 1
-        print("Congratulations!!, you got" + str(score) +
+        print("You got " + str(score) +
               "/" + str(len(questions)) + " correct")
 
 
-new_game(questions)
+play_game(questions)
+
+
+def play_again():
+    response = input("Do you want to play again? (yes or no):")
+    response = response.upper()
+    if response == "YES":
+        return True
+    else:
+        return False
+
+
+while play_again():
+    play_game(questions)
+
+print("Have a nice day!!!")
