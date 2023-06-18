@@ -1,32 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# QuizGame
 
-Welcome,
+QuizGame is a Python terminal game, which runs in the Code institue mock terminal on Heroku
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+Users can participate in a trivia game in which they have to answer different questions of all kinds. It has a total of 5 questions but has the possibility to be as many as you want.
 
-## Reminders
+The live link can be found [here](https://quiz-game-project-f9cd2923ecb8.herokuapp.com/)
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+![image](https://github.com/iweinacker/QuizGame/assets/130374663/ff419db2-b509-41bd-a446-0e9b3c13d1a5)
 
-## Creating the Heroku app
+## How to play it?
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The rules for QuizGame are simple. At the beginning it asks you if you want to play, if you answer "yes", the trivia game will start, but if you answer "no", the game will stop. 
 
-1. `heroku/python`
-2. `heroku/nodejs`
+Different questions of all kinds will appear, and you will have the option to choose the answer "a", "b" or "c". As you answer the questions, other questions will start to appear with a total of 5 questions. 
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## features
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+- At the beginning and as a cover, the game asks you if you want to start the trivia, having the option "yes" or "no". 
 
-Connect your GitHub repository and deploy as normal.
+![image](https://github.com/iweinacker/QuizGame/assets/130374663/2fd6ddc1-736b-4f0f-9eec-f616a681eb97)
 
-## Constraints
+In the case of "no" the game is over, and in the case of "yes" the phrase "let's go!" appears together with the first question.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+![image](https://github.com/iweinacker/QuizGame/assets/130374663/7261aecc-d055-4881-88a7-44e27bb6d485)
 
----
+As you answer the questions, regardless of whether they are correct or not, the following questions will be displayed. 
 
-Happy coding!
+![image](https://github.com/iweinacker/QuizGame/assets/130374663/5bc06d48-e1a6-46ad-bc58-f356a1f61d33)
+
+At the end of the questions, the percentage of correct answers will appear. 
+
+![image](https://github.com/iweinacker/QuizGame/assets/130374663/c22fa99a-a1d4-44bb-957f-77c91d013bd4)
+
+At the end of the trivia game you will be asked "Do you want to play again? (yes or no)" in which, if you are not satisfied with your result, you can enter "yes" which will start the trivia game again, if not, you will be asked "Have a nice day!!!" and the game will end.
+
+![image](https://github.com/iweinacker/QuizGame/assets/130374663/d29812da-449b-4385-91c3-322b959c09c5)
+
+
+## Data Model
+
+
+
+## Testing
+
+I have manually tested this project doing the following:
+
+- Passed the code through a PEP8 linter and confirmed the problems it might have.
+- Tested in my locas terminal and the Code Institute Heroku terminal.
+- Given the different inputs possible to se how it respond.
+
+### Remaining Bugs
+
+It has two bugs regarding the line length, but these are related to the questions and alternatives so it does not affect the project itself.
+
+- 5: E501 line too long (107 > 79 characters)
+- 6: E501 line too long (96 > 79 characters)
+
+
+## Deployment
+
+This project was deployed usfng Code Institute's mock terminal for Heroku
+
+- Steps for deployment:
+  - Fork or clone this repository
+  - Create a Heroku app
+  - Set the buildbacks to Python and NodeJS in that order
+  - Link the Heroku app to the repository
+  - Click on #Deploy 
+
+## Credits
+
+### content
+- Part of the code ideas and design was from the following links:
+- Javascript code [video 1](https://www.youtube.com/watch?v=jSBGBsJSXeU&t=1151s) [video 
+
