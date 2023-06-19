@@ -69,6 +69,6 @@ This project was deployed using Code Institute's mock terminal for Heroku
 ### content
 - Code Institute for the material and the deploy terminal
 - [Bro Code for the play again idea](https://www.youtube.com/watch?v=yriw5Zh406s)
-- Teaching expertise for the [trivia questions and answers] examples(https://www.teachingexpertise.com/classroom-ideas/easy-quiz-questions-and-answers/)
+- Teaching expertise for the [trivia questions and answers examples](https://www.teachingexpertise.com/classroom-ideas/easy-quiz-questions-and-answers/)
   
 
