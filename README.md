@@ -37,10 +37,6 @@ At the end of the trivia game you will be asked "Do you want to play again? (yes
 ![image](https://github.com/iweinacker/QuizGame/assets/130374663/d29812da-449b-4385-91c3-322b959c09c5)
 
 
-## Data Model
-
-
-
 ## Testing
 
 I have manually tested this project doing the following:
@@ -71,6 +67,8 @@ This project was deployed using Code Institute's mock terminal for Heroku
 ## Credits
 
 ### content
-- Part of the code ideas and design was from the following links:
-- Javascript code [video 1](https://www.youtube.com/watch?v=jSBGBsJSXeU&t=1151s) [video 
+- Code Institute for the material and the deploy terminal
+- [Bro Code for the play again idea](https://www.youtube.com/watch?v=yriw5Zh406s)
+- Teaching expertise for the [trivia questions and answers] examples(https://www.teachingexpertise.com/classroom-ideas/easy-quiz-questions-and-answers/)
+  
 
