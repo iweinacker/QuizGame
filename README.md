@@ -1,10 +1,10 @@
 # QuizGame
 
-QuizGame is a Python terminal game, which runs in the Code institue mock terminal on Heroku
+QuizGame is a Python terminal game, which runs in the Code institue mock terminal on Heroku.
 
 Users can participate in a trivia game in which they have to answer different questions of all kinds. It has a total of 5 questions but has the possibility to be as many as you want.
 
-The live link can be found [here](https://quiz-game-project-f9cd2923ecb8.herokuapp.com/)
+The live link can be found [here.](https://quiz-game-project-f9cd2923ecb8.herokuapp.com/)
 
 ![image](https://github.com/iweinacker/QuizGame/assets/130374663/ff419db2-b509-41bd-a446-0e9b3c13d1a5)
 
@@ -55,7 +55,7 @@ It has two bugs regarding the line length, but these are related to the question
 
 ## Deployment
 
-This project was deployed using Code Institute's mock terminal for Heroku
+This project was deployed using Code Institute's mock terminal for Heroku.
 
 - Steps for deployment:
   - Fork or clone this repository
@@ -67,8 +67,8 @@ This project was deployed using Code Institute's mock terminal for Heroku
 ## Credits
 
 ### content
-- Code Institute for the material and the deploy terminal
-- [Bro Code for the play again idea](https://www.youtube.com/watch?v=yriw5Zh406s)
-- Teaching expertise for the [trivia questions and answers examples](https://www.teachingexpertise.com/classroom-ideas/easy-quiz-questions-and-answers/)
+- Code Institute for the material and the deploy terminal.
+- Bro Code for the [play again idea.](https://www.youtube.com/watch?v=yriw5Zh406s)
+- Teaching expertise for the trivia [questions and answers examples.](https://www.teachingexpertise.com/classroom-ideas/easy-quiz-questions-and-answers/)
   
 
